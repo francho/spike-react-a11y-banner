@@ -1,0 +1,13 @@
+.slick-prev,
+.slick-next {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.my-slide {
+  background-color: darkgrey;
+  text-align: center;
+  min-height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
