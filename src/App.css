@@ -1,5 +1,6 @@
 body {
-  background-color: beige;
+  background-color: rgb(100, 100, 100);
+  color: rgb(200, 200, 200);
 }
 
 #root {
@@ -9,8 +10,10 @@ body {
 
 .App {
   display: flex;
+  flex-wrap: wrap;
+  flex: 1;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   padding: 2rem;
   min-height: 90vh;
@@ -18,4 +21,32 @@ body {
 
 .banners {
   width: 520px;
+}
+
+footer {
+  justify-self: bottom;
+}
+
+footer > ul {
+  display: flex;
+  gap: 2em;
+  list-style: none;
+  font-size: 0.8em;
+}
+
+footer > li {
+  text-decoration: none;
+}
+
+a,
+a:visited {
+  color: rgb(200, 200, 200);
+  text-decoration: none;
+  padding: 0.5em;
+  border-radius: 5%;
+}
+
+a:hover {
+  background-color: rgb(200, 200, 200);
+  color: rgb(100, 100, 100);
 }
