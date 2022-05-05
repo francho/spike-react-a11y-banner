@@ -4,6 +4,7 @@ import React from 'react'
 import { BrowserRouter, Link, RouteObject, useLocation, useRoutes } from 'react-router-dom'
 
 import AwesomeSliderBanner from './components/AwesomeSliderBanner'
+import ReactAliceCarouselBanner from './components/ReactAliceCarouselBanner'
 import ReactImageGalleryBanner from './components/ReactImageGalleryBanner'
 import ReactSlickBanner from './components/ReactSlickBanner'
 
@@ -11,6 +12,7 @@ const routes: RouteObject[] = [
   { path: '/react-image-gallery', element: <ReactImageGalleryBanner /> },
   { path: '/react-slick', element: <ReactSlickBanner /> },
   { path: '/awesome-slider', element: <AwesomeSliderBanner /> },
+  { path: '/alice-carousel', element: <ReactAliceCarouselBanner /> },
 ]
 
 function SpikeRoutes() {
