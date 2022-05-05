@@ -1,0 +1,52 @@
+.CustomBanner {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  gap: 2em;
+}
+
+.CustomBanner > .slide {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  align-items: center;
+  gap: 2em;
+}
+
+.slideItem {
+  display: block;
+}
+
+.slideItem > div{
+  position: relative;
+  top:0;
+  left: 0;
+}
+
+
+.CustomBanner > .bullets {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+} 
+
+.CustomBanner > .bullets > button {
+  min-height: 15px;
+}
+
+.SlideAnimation-enter {
+  opacity: 0.01;
+}
+
+.SlideAnimation-enter.SlideAnimation-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.SlideAnimation-exit {
+  display: none;
+}
+
+.SlideAnimation-exit.SlideAnimation-exit-active {
+  display: none;
+}

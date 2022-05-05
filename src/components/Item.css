@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-items: center;
   align-items: center;
+  border: 3px solid rgba(255,255,255,0.1);
 }
 
 .item > img {
