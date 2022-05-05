@@ -10791,6 +10791,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-awesome-slider@npm:^4.1.0":
+  version: 4.1.0
+  resolution: "react-awesome-slider@npm:4.1.0"
+  dependencies:
+    web-animation-club: ^0.6.0
+  checksum: 936142afbbdd67d239b6b09de2b151357e03f8fcf21dc0ed3c5f7cd966baa12f2e4921da9495f8c2e9847a778420266c7534d2f29e33cfb9dfd1cc9040c71d5e
+  languageName: node
+  linkType: hard
+
 "react-dev-utils@npm:^12.0.1":
   version: 12.0.1
   resolution: "react-dev-utils@npm:12.0.1"
@@ -11922,6 +11931,7 @@ __metadata:
     husky: ^7.0.4
     prettier: ^2.6.2
     react: ^18.1.0
+    react-awesome-slider: ^4.1.0
     react-dom: ^18.1.0
     react-router-dom: ^6.3.0
     react-scripts: 5.0.1
@@ -12964,6 +12974,13 @@ __metadata:
   dependencies:
     minimalistic-assert: ^1.0.0
   checksum: 2abc306c96930b757972a1c4650eb6b25b5d99f24088714957f88629e137db569368c5de0e57986c89ea70db2f1df9bba11a87cb6d0c8694b6f53a0159fab3bf
+  languageName: node
+  linkType: hard
+
+"web-animation-club@npm:^0.6.0":
+  version: 0.6.0
+  resolution: "web-animation-club@npm:0.6.0"
+  checksum: fba9b0ef17c403d668ce491eb9510d09d0fa0aee4cfdfdc5a9abd99fbec6026c3ffcdfab085e7b4540c554ab9a3cf633d9f4ae6517a2a6a478abbd2c962c68f1
   languageName: node
   linkType: hard
 
