@@ -1,0 +1,15 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+.item > img {
+  flex: 1;
+  max-height: 250px;
+}
+
+.item > button {
+  flex: 0.5;
+}

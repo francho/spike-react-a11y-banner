@@ -2,8 +2,10 @@ import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import './ReactSlickBanner.css'
 
-import React from 'react'
+import React, { useMemo } from 'react'
 import Slider from 'react-slick'
+
+import Item from './Item'
 
 const settings = {
   dots: true,
@@ -13,29 +15,16 @@ const settings = {
   slidesToScroll: 1,
 }
 function ReactSlickBanner() {
-  return (
-    <Slider {...settings}>
-      <div className="my-slide">
-        <h3>one 1</h3>
-        <button type="button">button</button>
-      </div>
-      <div className="my-slide">
-        <h3>2</h3>
-      </div>
-      <div className="my-slide">
-        <h3>3</h3>
-      </div>
-      <div className="my-slide">
-        <h3>4</h3>
-      </div>
-      <div className="my-slide">
-        <h3>5</h3>
-      </div>
-      <div className="my-slide">
-        <h3>6</h3>
-      </div>
-    </Slider>
-  )
+  const items: React.ReactElement[] = useMemo(() => {
+    const images = [
+      'https://dummyimage.com/520x300/0aa/111',
+      'https://dummyimage.com/520x300/a0a/111',
+      'https://dummyimage.com/520x300/aa0/111',
+    ]
+    return images.map((image): React.ReactElement => <Item image={image} key={image} />)
+  }, [])
+
+  return <Slider {...settings}>{items}</Slider>
 }
 
 export default ReactSlickBanner

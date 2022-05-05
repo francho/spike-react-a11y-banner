@@ -3,6 +3,17 @@ body {
   color: rgb(200, 200, 200);
 }
 
+h1 {
+  line-height: 0;
+  margin-bottom: 15px;
+}
+header {
+  text-align: right;
+}
+small {
+  color: rgb(150, 150, 150);
+}
+
 #root {
   height: 100%;
   min-height: 90vh;
