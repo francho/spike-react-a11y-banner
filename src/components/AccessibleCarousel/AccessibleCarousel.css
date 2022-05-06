@@ -19,13 +19,11 @@
   height: 300px;
 }
 
-
-
 .CustomBanner > .bullets {
   display: flex;
   justify-content: center;
   gap: 1em;
-} 
+}
 
 .CustomBanner > .bullets > button {
   min-height: 15px;
