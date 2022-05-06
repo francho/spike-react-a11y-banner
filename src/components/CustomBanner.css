@@ -15,13 +15,10 @@
 
 .slideItem {
   display: block;
+  width: 520px;
+  height: 300px;
 }
 
-.slideItem > div{
-  position: relative;
-  top:0;
-  left: 0;
-}
 
 
 .CustomBanner > .bullets {
